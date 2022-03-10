@@ -13,5 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\App">
+      <UniqueIdentifier>{781c6fa8-223c-4aae-9c3e-ac397370ca6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{782d05cb-df56-4b75-8edd-b464e35b1da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Camera">
+      <UniqueIdentifier>{ad56fdcb-305a-4999-bf4f-9f5943e4693d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Graphics">
+      <UniqueIdentifier>{656ab948-4cc6-491e-bba7-229873e179c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Scene">
+      <UniqueIdentifier>{1386d2b6-0d90-42e5-ba27-4a44600ad7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Texture">
+      <UniqueIdentifier>{48397b17-6c8e-4cef-9d89-a756a61a95f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\App">
+      <UniqueIdentifier>{08bcb8b0-7fd8-434c-a4a7-4e475bc7a602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{290e9cfa-699c-4201-8610-8554237c98d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Camera">
+      <UniqueIdentifier>{436b7805-37a4-4409-a9f1-726f2f207d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Graphics">
+      <UniqueIdentifier>{020d5df7-037d-4f4e-b0d0-b5ac789860a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Texture">
+      <UniqueIdentifier>{41025264-bd62-4d0b-820c-d9ab04660035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Scene">
+      <UniqueIdentifier>{8d7f7951-0dda-4a01-a4af-62c425e93f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Shader">
+      <UniqueIdentifier>{6f1ed834-8093-4c4e-8371-a698d32e4bb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System\startup.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\main.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System\main.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
